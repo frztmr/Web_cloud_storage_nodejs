@@ -1,0 +1,36 @@
+{
+  "name": "web_cloud_storage_nodejs",
+  "version": "1.0.0",
+  "description": "your personal storage",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frztmr/Web_cloud_storage_nodejs.git"
+  },
+  "keywords": [
+    "cloud",
+    "storage",
+    "nas",
+    "web"
+  ],
+  "author": "frztmr.webdev@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/frztmr/Web_cloud_storage_nodejs/issues"
+  },
+  "homepage": "https://github.com/frztmr/Web_cloud_storage_nodejs#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-bearer-token": "^3.0.0",
+    "express-session": "^1.18.1",
+    "helmet": "^8.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.12.0"
+  }
+}
